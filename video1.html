@@ -1,5 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+ <script src="https://github.com/intern8te/zara/blob/311947f4d257e489fd322d194ecf753d65aa2d73/kiosk_functions.js"></script>
+ <script type="text/javascript">
+    function playVideo(){
+        var video = document.getElementById('video');
+        video.play();
+        video.addEventListener('ended',function(){
+            window.location = 'https://form.jotform.com/220584891379166';
+        });
+        }
+    </script>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,20 +28,14 @@ body,td,th {
 </head>
 
 <body>
-
-<center><img src="https://intern8te.com/wp-content/uploads/2022/03/LogoWhite.png" width=450 alt="logo"/><br><br>﻿Welcome to Zara Financial Group.<br> Tap &quot;play&quot; to continue.</center>
+<div>
+    <function>playVideo();</function>
+<center><img src="https://github.com/intern8te/zara/blob/311947f4d257e489fd322d194ecf753d65aa2d73/LogoWhite.png" width=550 alt="logo"/><br><br>﻿Welcome to Zara Financial Group.<br> Tap &quot;play&quot; to continue.</center>
 	
-
-<script type="text/javascript">
-function playVideo(){
-    var video = document.getElementById('video');
-    video.play();
-    video.addEventListener('ended',function(){
-        window.location = 'https://form.jotform.com/220584891379166';
-    });
-}
-</script>
-<video controls autoplay width="650">
-	<source src="https://intern8te.com/wp-content/uploads/2022/03/Kiosk2.mp4" type="video/mp4">
+</div>
+<p>
+<video controls autoplay width="750">
+	<source src="https://github.com/intern8te/zara/blob/311947f4d257e489fd322d194ecf753d65aa2d73/Kiosk2.mp4" type="video/mp4">
 </video>
+</p>
 </body></html>
